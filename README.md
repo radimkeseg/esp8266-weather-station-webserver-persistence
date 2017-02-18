@@ -2,6 +2,14 @@
 
 ESP8266 Weather Station with webserver and persistant store for location
 
+## Description
+* Access Point / WiFi client
+* WebServer for location configuration (country + city)
+* NTP client reading current time
+* Weather Condition Client (WunderGround API)
+* Weather Forecast Client (WunderGound API)
+* 3D printed case
+
 ## Setup
 
 * Download this project either with a git checkout or press "Download as zip"
