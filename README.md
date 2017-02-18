@@ -32,3 +32,7 @@ ESP8266 Weather Station with webserver and persistant store for location
  * Interval
  * Time
  
+## Components
+* ams1117-3 http://www.ebay.com/itm/5pcs-4-5V-7V-to-3-3V-AMS1117-3-3V-Power-Supply-Module-AMS1117-3-3-/400985442255?hash=item5d5c9847cf:g:3wwAAOSwF1dUSgkD
+* ssd1306 http://www.ebay.com/itm/0-96-I2C-IIC-SPI-Serial-128X64-OLED-LCD-Display-SSD1306-for-Arduino-51-STM32-/272476004980?var=&hash=item3f70d5e274:m:mdsrQThNknGCFR88rIkikNA
+* esp8266 esp-01 http://www.ebay.com/itm/1PCS-ESP8266-ESP-01-WIFI-Wireless-Transceiver-Send-Receive-LWIP-AP-STA-/171907296150?hash=item2806792b96:g:X1cAAOSwk5FUt8Sq
