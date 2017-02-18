@@ -1,0 +1,12 @@
+const char PAGE_INDEX[] PROGMEM = R"=====(
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IoT Meteo Station with SSD1306 i2c 128x64</title>
+</head>
+<body>
+	<h1>IoT Meteo Station with SSD1306 i2c 128x64</h1>
+</body>
+</html>
+)=====";
