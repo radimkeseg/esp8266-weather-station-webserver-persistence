@@ -1,6 +1,6 @@
-# esp8266-weather-station
+# esp8266-weather-station-webserver-persistence
 
-New version of the ESP8266 Weather Station
+ESP8266 Weather Station with webserver and persistant store for location
 
 ## Setup
 
@@ -11,12 +11,15 @@ New version of the ESP8266 Weather Station
 * Go to http://wunderground.com, create an account and get an API Key
 * Open the sketch in the Arduino Include and
  * Enter  the Wunderground API Key
- * Enter your Wifi credentials
- * Adjust the location according to Wunderground API, e.g. Zurich, CH
  * Adjust UTC offset
 
-## Known issues
-Many people asked me to finally publish the new version. I'm doing that now, knowing that some things are not perfect or stable enough. If you detect or even fix one of these issues, please contact me or create a pull request
-* Time is running out of sync. Sometimes off my many minutes. I assume it has something todo with the implementation of the millis() function which I based the time sync upon
-* The precipitation value from Wunderground currently always returns 0.0mm for my location. Maybe this looks better in other locations
-* Sometimes the WeatherStation crashes. I didn't have time to debug this behavior. If you have any clue, please let me know.
+## Inpired by
+* http://www.xpablo.cz/?p=975#more-975
+* https://www.youtube.com/watch?v=AVIP1Na-M10&t=1s
+
+## Libraries
+* WifiConfig
+* espnbns
+* Interval
+* Time
+ 
