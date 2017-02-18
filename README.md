@@ -25,9 +25,10 @@ ESP8266 Weather Station with webserver and persistant store for location
 * http://www.xpablo.cz/?p=975#more-975
 * https://www.youtube.com/watch?v=AVIP1Na-M10&t=1s
 
-## Libraries
-* WifiConfig
-* espnbns
-* Interval
-* Time
+## Other Libraries
+* find on http://www.xpablo.cz/?p=975#more-975
+ * WifiConfig
+ * espnbns
+ * Interval
+ * Time
  
