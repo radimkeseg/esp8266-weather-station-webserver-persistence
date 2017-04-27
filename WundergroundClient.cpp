@@ -68,13 +68,16 @@ void WundergroundClient::doUpdate(String url) {
   boolean isBody = false;
   char c;
 
+  
+  
   Serial.println("reading the response");
+  uint32_t theTime = millis();
   int size = 0;
   client.setNoDelay(false);
   while(client.connected()) {
     while((size = client.available()) > 0) {
+    if( ( millis() - theTime ) > 30*1000 ){Serial.print("INFINITE LOOP BREAK!"); break;}  //exit loop after one second.
       c = client.read();
-      //Serial.print(c);
       if (c == '{' || c == '[') {
         isBody = true;
       }
